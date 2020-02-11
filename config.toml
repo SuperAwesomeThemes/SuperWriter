@@ -42,14 +42,8 @@ googleAnalytics = "212090575"
     dateFormat = "Mon, 2 Jan 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
-    exponeaJsUrl = ""
-    exponeaTarget = ""
-    exponeaToken = ""
-    exponeaTrackVisits = false
     readingTime = true
     readingTimeText = "Estimated reading time:"
-    fathomUrl = ""
-    fathomSiteId = ""
 	enableRobotsTXT = true
 
 [Permalinks]
