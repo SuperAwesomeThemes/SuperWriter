@@ -1,9 +1,9 @@
-baseurl = "https://sirinath.com/"
-title = "Suminda Sirinath Salpitikorala Dharmasena"
+baseurl = ""
+title = "SuperWriter"
 theme = "SuperWriter"
 languageCode = "en-uk"
-copyright = "Suminda Sirinath Salpitikorala Dharmasena"
-googleAnalytics = "212090575"
+copyright = ""
+googleAnalytics = ""
 
 [Privacy]
 
@@ -16,8 +16,8 @@ googleAnalytics = "212090575"
     useSessionStorage = false
 
 [Author]
-    name = "Suminda Sirinath Salpitikorala Dharmasena"
-    profile = "https://twitter.com/sirinath"
+    name = ""
+    profile = ""
 
 [Taxonomies]
     tag = "tags"
@@ -27,13 +27,13 @@ googleAnalytics = "212090575"
     intro = true
     headline = "SuperWriter Theme"
     description = "SuperWriter Theme"
-    github = "https://github.com/sirinath"
-    gitlab = "https://gitlab.com/sirinath"
-    linkedin = "https://linkedin.com/in/sirinath/"
-    twitter = "https://twitter.com/sirinath"
-    stackoverflow = "https://stackoverflow.com/users/676644/suminda-sirinath-s-dharmasena"
-    facebook = "https://www.facebook.com/sirinath"
-    email = "me@sirinath.com"
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    twitter = ""
+    stackoverflow = ""
+    facebook = ""
+    email = ""
     opengraph = true
     shareTwitter = true
     shareFacebook = true
