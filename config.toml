@@ -43,6 +43,9 @@ googleAnalytics = ""
     readingTime = true
     readingTimeText = "Estimated reading time:"
 	enableRobotsTXT = true
+	UtterancesRepo = ""
+    UtterancesIssueTerm = "title"
+    UtterancesTheme = "github-light"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
