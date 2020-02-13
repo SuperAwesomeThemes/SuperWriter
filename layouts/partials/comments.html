@@ -7,7 +7,7 @@
 		<script src="https://utteranc.es/client.js"
 				repo="{{ .Site.Params.UtterancesRepo }}"
 				issue-term="{{ .Site.Params.UtterancesIssueTerm }}"
-				{{ if .Site.Params.UtterancesLabel }}label="{{ . }}"{{ end }}
+				{{ with .Site.Params.UtterancesLabel }}label="{{ . }}"{{ end }}
 				theme="{{ with .Site.Params.UtterancesTheme }}{{ . }}{{else}}github-light{{ end }}"
 				crossorigin="anonymous"
 				async>
