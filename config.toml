@@ -21,6 +21,7 @@ googleAnalytics = ""
 
 [Taxonomies]
     category = "categories"
+	series = "series"
     tag = "tags"
 
 [Params]
@@ -30,10 +31,11 @@ googleAnalytics = ""
     description = "SuperWriter Theme"
     github = ""
     gitlab = ""
+	facebook = ""
     linkedin = ""
     twitter = ""
     stackoverflow = ""
-    facebook = ""
+	quora = ""
     email = ""
     opengraph = true
     shareTwitter = true
@@ -58,15 +60,15 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "Projects"
-    url = "/project/"
+    url = "/pages/project/"
     weight = 2
 
 [[menu.main]]
     name = "Contact"
-    url = "/contact/"
+    url = "/pages/contact/"
     weight = 3
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/pages/about/"
     weight = 4

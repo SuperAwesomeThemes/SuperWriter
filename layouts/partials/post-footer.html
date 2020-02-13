@@ -3,8 +3,17 @@
 	    {{ if .Params.categories }}
 			<span>Categories:</span>
 			{{ $len := len .Params.categories }}
-			{{ range $index, $tag := .Params.categories }}
+			{{ range $index, $categories := .Params.categories }}
 				<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+				{{- if lt $index (sub $len 1) -}}, {{ else }} | {{ end }}
+			{{ end }}
+		{{ end}}
+		
+	    {{ if .Params.series }}
+			<span>Categories:</span>
+			{{ $len := len .Params.series }}
+			{{ range $index, $series := .Params.series }}
+				<a href="{{ "/series/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
 				{{- if lt $index (sub $len 1) -}}, {{ else }} | {{ end }}
 			{{ end }}
 		{{ end}}
