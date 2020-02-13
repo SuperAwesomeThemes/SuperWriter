@@ -366,7 +366,16 @@ table {
 	border: 2px solid $primary;
 	text-align: center;
 	transition-duration: 0.4s;
-    a:hover { color: $secondary; }
+	text-decoration: none;
+	
+	a {
+		display: inline-block;
+	}
+	
+    a:hover { 
+		color: $secondary;
+		border: 2px solid $secondary;
+	}
 }
 
 .share {
