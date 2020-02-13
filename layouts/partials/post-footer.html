@@ -10,7 +10,7 @@
 		{{ end}}
 		
 	    {{ if .Params.series }}
-			<span>Categories:</span>
+			<span>Series:</span>
 			{{ $len := len .Params.series }}
 			{{ range $index, $series := .Params.series }}
 				<a href="{{ "/series/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>

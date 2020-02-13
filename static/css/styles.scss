@@ -4,7 +4,7 @@
 
 $primary: #F03838;
 $secondary: #303030;
-$background: #FEFEFE;
+$background: #FEFEF8;
 
 /* ============================================================ */
 /* Base */
@@ -361,6 +361,10 @@ table {
 .post-tags {
     float: left;
     margin: 3px 0 0;
+	padding: 5px;
+	border-radius: 4px;
+	text-align: center;
+	transition-duration: 0.4s;
     a:hover { color: $secondary; }
 }
 
