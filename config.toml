@@ -60,7 +60,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "Projects"
-    url = "/pages/project/"
+    url = "/pages/projects/"
     weight = 2
 
 [[menu.main]]
