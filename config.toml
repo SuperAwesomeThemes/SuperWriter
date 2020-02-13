@@ -20,6 +20,7 @@ googleAnalytics = ""
     profile = ""
 
 [Taxonomies]
+    category = "categories"
     tag = "tags"
 
 [Params]
@@ -62,10 +63,10 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "Contact"
-    url = "/page/contact/"
+    url = "/contact/"
     weight = 3
 
 [[menu.main]]
     name = "About"
-    url = "/page/about/"
+    url = "/about/"
     weight = 4
