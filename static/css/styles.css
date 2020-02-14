@@ -388,9 +388,6 @@ table tr {
   float: left;
   margin: 3px 0 0;
 }
-.post-tags a:hover {
-  color: #303030;
-}
 
 .share {
   float: right;
