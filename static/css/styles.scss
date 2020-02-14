@@ -412,7 +412,7 @@ $tagsc: #F03838;
 $tagsbc: #FCF5F5;
 $tagshc: #FF4040;
 
-.taxonomies-tags {
+a.taxonomies-tags .taxonomies-tags {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $tagsc;
@@ -427,15 +427,16 @@ $tagshc: #FF4040;
 	cursor: pointer;
 }
 
-.taxonomies-tags:hover {
-	color: $tagshc;
+a.taxonomies-tags:hover .taxonomies-tags:hover {
+	color: $tagshc; 
+	border: 1px solid $tagsc;
 }
 
 $seriesc: #38F038;
 $seriesbc: #F5FCF5;
 $serieshc: #40FF40;
 
-.taxonomies-series {
+a.taxonomies-series .taxonomies-series {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $seriesc;
@@ -450,15 +451,16 @@ $serieshc: #40FF40;
 	cursor: pointer;
 }
 
-.taxonomies-series:hover {
+a.taxonomies-series:hover .taxonomies-series:hover {
 	color: $serieshc;
+	border: 1px solid $seriesc;
 }
 
 $categoriesc: #3838F0;
 $categoriesbc: #F5F5FC;
 $categorieshc: #4040FF;
 
-.taxonomies-categories {
+a.taxonomies-categories .taxonomies-categories {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $categoriesc;
@@ -473,8 +475,9 @@ $categorieshc: #4040FF;
 	cursor: pointer;
 }
 
-.taxonomies-categories:hover {
+a.taxonomies-categories:hover .taxonomies-categories:hover {
 	color: $categorieshc;
+	border: 1px solid $categoriesc;
 }
 
 /* ============================================================ */
