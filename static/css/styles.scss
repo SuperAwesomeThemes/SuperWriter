@@ -362,7 +362,7 @@ table {
     float: left;
     margin: 3px 0 0;
 	
-    // a:hover { color: $secondary; }
+    a:hover { color: $secondary; }
 }
 
 .share {
@@ -426,11 +426,11 @@ $tagshc: #FF4040;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
-}
-
-.taxonomies-tags:hover {
-	color: $tagshc; 
-	border: 1px solid $tagsc;
+	
+	:hover, a:hover {
+		color: $tagshc; 
+		border: 1px solid $tagsc;
+	}
 }
 
 $seriesc: #38F038;
@@ -450,12 +450,14 @@ $serieshc: #40FF40;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
+	
+	:hover, a:hover {
+		color: $serieshc;
+		border: 1px solid $seriesc;
+	}
 }
 
-.taxonomies-series:hover {
-	color: $serieshc;
-	border: 1px solid $seriesc;
-}
+
 
 $categoriesc: #3838F0;
 $categoriesbc: #F5F5FC;
@@ -474,11 +476,11 @@ $categorieshc: #4040FF;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
-}
-
-.taxonomies-categories:hover {
-	color: $categorieshc;
-	border: 1px solid $categoriesc;
+	
+	:hover, a:hover {
+		color: $categorieshc;
+		border: 1px solid $categoriesc;
+	}
 }
 
 /* ============================================================ */
