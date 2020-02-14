@@ -431,11 +431,11 @@ $tagshc: #FF4040;
 		color: $tagshc; 
 		border: 1px solid $tagsc;
 	}
-	
-	a:hover {
-		color: $tagshc; 
-		border: 1px solid $tagsc;
-	}
+}
+
+a.taxonomies-tags:hover {
+	color: $tagshc; 
+	border: 1px solid $tagsc;
 }
 
 $seriesc: #38F038;
@@ -460,14 +460,12 @@ $serieshc: #40FF40;
 		color: $serieshc;
 		border: 1px solid $seriesc;
 	}
-	
-	a:hover {
-		color: $serieshc;
-		border: 1px solid $seriesc;
-	}
 }
 
-
+a.taxonomies-series:hover {
+	color: $serieshc;
+	border: 1px solid $seriesc;
+}
 
 $categoriesc: #3838F0;
 $categoriesbc: #F5F5FC;
@@ -491,11 +489,11 @@ $categorieshc: #4040FF;
 		color: $categorieshc;
 		border: 1px solid $categoriesc;
 	}
-	
-	a:hover {
-		color: $categorieshc;
-		border: 1px solid $categoriesc;
-	}
+}
+
+a.taxonomies-categories:hover {
+	color: $categorieshc;
+	border: 1px solid $categoriesc;
 }
 
 /* ============================================================ */
