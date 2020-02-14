@@ -427,7 +427,12 @@ $tagshc: #FF4040;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
-	&:hover, a:hover {
+	&:hover {
+		color: $tagshc; 
+		border: 1px solid $tagsc;
+	}
+	
+	a:hover {
 		color: $tagshc; 
 		border: 1px solid $tagsc;
 	}
@@ -451,7 +456,12 @@ $serieshc: #40FF40;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
-	&:hover, a:hover {
+	&:hover {
+		color: $serieshc;
+		border: 1px solid $seriesc;
+	}
+	
+	a:hover {
 		color: $serieshc;
 		border: 1px solid $seriesc;
 	}
@@ -477,7 +487,12 @@ $categorieshc: #4040FF;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
-	&:hover, a:hover {
+	&:hover {
+		color: $categorieshc;
+		border: 1px solid $categoriesc;
+	}
+	
+	a:hover {
 		color: $categorieshc;
 		border: 1px solid $categoriesc;
 	}
