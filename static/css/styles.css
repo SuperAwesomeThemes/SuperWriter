@@ -441,11 +441,11 @@ table tr {
   line-height: 100%;
   margin: 3px 0 0;
   color: #F03838;
+  border: 1px solid #F03838;
   background-color: #FCF5F5;
   display: inline-block;
   padding: 3px;
   border-radius: 4px;
-  border: 1px solid #F03838;
   text-align: center;
   text-decoration: none;
   -webkit-transition-duration: 0.4s;
@@ -453,24 +453,26 @@ table tr {
   cursor: pointer;
 }
 .taxonomies-tags:hover {
-  color: #FF4040;
-  border: 1px solid #F03838;
+  color: #FCF5F5;
+  border: 1px solid #FCF5F5;
+  background-color: #F03838;
 }
 
 a.taxonomies-tags:hover {
-  color: #FF4040;
-  border: 1px solid #F03838;
+  color: #FCF5F5;
+  border: 1px solid #FCF5F5;
+  background-color: #F03838;
 }
 
 .taxonomies-series {
   line-height: 100%;
   margin: 3px 0 0;
   color: #38F038;
+  border: 1px solid #38F038;
   background-color: #F5FCF5;
   display: inline-block;
   padding: 3px;
   border-radius: 4px;
-  border: 1px solid #38F038;
   text-align: center;
   text-decoration: none;
   -webkit-transition-duration: 0.4s;
@@ -478,24 +480,26 @@ a.taxonomies-tags:hover {
   cursor: pointer;
 }
 .taxonomies-series:hover {
-  color: #40FF40;
-  border: 1px solid #38F038;
+  color: #F5FCF5;
+  border: 1px solid #F5FCF5;
+  background-color: #38F038;
 }
 
 a.taxonomies-series:hover {
-  color: #40FF40;
-  border: 1px solid #38F038;
+  color: #F5FCF5;
+  border: 1px solid #F5FCF5;
+  background-color: #38F038;
 }
 
 .taxonomies-categories {
   line-height: 100%;
   margin: 3px 0 0;
   color: #3838F0;
+  border: 1px solid #3838F0;
   background-color: #F5F5FC;
   display: inline-block;
   padding: 3px;
   border-radius: 4px;
-  border: 1px solid #3838F0;
   text-align: center;
   text-decoration: none;
   -webkit-transition-duration: 0.4s;
@@ -503,13 +507,15 @@ a.taxonomies-series:hover {
   cursor: pointer;
 }
 .taxonomies-categories:hover {
-  color: #4040FF;
-  border: 1px solid #3838F0;
+  color: #F5F5FC;
+  border: 1px solid #F5F5FC;
+  background-color: #3838F0;
 }
 
 a.taxonomies-categories:hover {
-  color: #4040FF;
-  border: 1px solid #3838F0;
+  color: #F5F5FC;
+  border: 1px solid #F5F5FC;
+  background-color: #3838F0;
 }
 
 /* ============================================================ */

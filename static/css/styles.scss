@@ -409,91 +409,94 @@ table {
 /* Taxonomies */
 /* ============================================================ */
 
-$tagsc: #F03838;
-$tagsbc: #FCF5F5;
-$tagshc: #FF4040;
+$tags1: #F03838;
+$tags2: #FCF5F5;
 
 .taxonomies-tags {
 	line-height: 100%;
 	margin: 3px 0 0;
-	color: $tagsc;
-	background-color: $tagsbc;
+	color: $tags1;
+	border: 1px solid $tags1;
+	background-color: $tags2;
 	display: inline-block;
 	padding: 3px;
 	border-radius: 4px;
-	border: 1px solid $tagsc;
 	text-align: center;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
 	&:hover {
-		color: $tagshc; 
-		border: 1px solid $tagsc;
+		color: $tags2;
+		border: 1px solid $tags2;
+		background-color: $tags1;
 	}
 }
 
 a.taxonomies-tags:hover {
-	color: $tagshc; 
-	border: 1px solid $tagsc;
+	color: $tags2;
+	border: 1px solid $tags2;
+	background-color: $tags1;
 }
 
-$seriesc: #38F038;
-$seriesbc: #F5FCF5;
-$serieshc: #40FF40;
+$series1: #38F038;
+$series2: #F5FCF5;
 
 .taxonomies-series {
 	line-height: 100%;
 	margin: 3px 0 0;
-	color: $seriesc;
-	background-color: $seriesbc;
+	color: $series1;
+	border: 1px solid $series1;
+	background-color: $series2;
 	display: inline-block;
 	padding: 3px;
 	border-radius: 4px;
-	border: 1px solid $seriesc;
 	text-align: center;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
 	&:hover {
-		color: $serieshc;
-		border: 1px solid $seriesc;
+		color: $series2;
+		border: 1px solid $series2;
+		background-color: $series1;
 	}
 }
 
 a.taxonomies-series:hover {
-	color: $serieshc;
-	border: 1px solid $seriesc;
+	color: $series2;
+	border: 1px solid $series2;
+	background-color: $series1;
 }
 
-$categoriesc: #3838F0;
-$categoriesbc: #F5F5FC;
-$categorieshc: #4040FF;
+$categories1: #3838F0;
+$categories2: #F5F5FC;
 
 .taxonomies-categories {
 	line-height: 100%;
 	margin: 3px 0 0;
-	color: $categoriesc;
-	background-color: $categoriesbc;
+	color: $categories1;
+	border: 1px solid $categories1;
+	background-color: $categories2;
 	display: inline-block;
 	padding: 3px;
 	border-radius: 4px;
-	border: 1px solid $categoriesc;
 	text-align: center;
 	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
 	
 	&:hover {
-		color: $categorieshc;
-		border: 1px solid $categoriesc;
+		color: $categories2;
+		border: 1px solid $categories2;
+		background-color: $categories1;
 	}
 }
 
 a.taxonomies-categories:hover {
-	color: $categorieshc;
-	border: 1px solid $categoriesc;
+	color: $categories2;
+	border: 1px solid $categories2;
+	background-color: $categories1;
 }
 
 /* ============================================================ */
