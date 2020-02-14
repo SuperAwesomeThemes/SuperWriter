@@ -371,9 +371,12 @@ table {
 		border: 2px solid $primary;
 		text-align: center;
 		text-decoration: none;
+		transition-duration: 0.4s;
+		cursor: pointer;
 	}
 	
     a:hover { 
+		margin: 3px 0 0;
 		color: $secondary;
 		display: inline-block;
 		padding: 3px;
@@ -382,6 +385,7 @@ table {
 		text-align: center;
 		text-decoration: none;
 		transition-duration: 0.4s;
+		cursor: pointer;
 	}
 }
 
