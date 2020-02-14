@@ -3,7 +3,7 @@
 	    {{ if .Params.categories }}
 			<span>Categories:</span>
 			{{ $len := len .Params.categories }}
-			{{ range $index, $tag := .Params.categories }}
+			{{ range $index, $categories := .Params.categories }}
 				<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
 				{{- if lt $index (sub $len 1) -}}, {{ else }} | {{ end }}
 			{{ end }}
