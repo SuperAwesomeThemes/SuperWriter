@@ -363,25 +363,27 @@ table {
     margin: 3px 0 0;
 	
 	a {
+		line-height: 125%;
 		margin: 3px 0 0;
 		color: $primary;
 		display: inline-block;
 		padding: 3px;
 		border-radius: 4px;
-		border: 2px solid $primary;
+		border: 1px solid $primary;
 		text-align: center;
 		text-decoration: none;
 		transition-duration: 0.4s;
 		cursor: pointer;
 	}
 	
-    a:hover { 
+    a:hover {
+		line-height: 125%;
 		margin: 3px 0 0;
 		color: $secondary;
 		display: inline-block;
 		padding: 3px;
 		border-radius: 4px;
-		border: 2px solid $secondary;
+		border: 1px solid $secondary;
 		text-align: center;
 		text-decoration: none;
 		transition-duration: 0.4s;
