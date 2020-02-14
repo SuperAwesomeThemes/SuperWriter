@@ -412,7 +412,7 @@ $tagsc: #F03838;
 $tagsbc: #FCF5F5;
 $tagshc: #FF4040;
 
-a.taxonomies-tags .taxonomies-tags {
+.taxonomies-tags {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $tagsc;
@@ -436,7 +436,7 @@ $seriesc: #38F038;
 $seriesbc: #F5FCF5;
 $serieshc: #40FF40;
 
-a.taxonomies-series .taxonomies-series {
+.taxonomies-series {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $seriesc;
@@ -460,7 +460,7 @@ $categoriesc: #3838F0;
 $categoriesbc: #F5F5FC;
 $categorieshc: #4040FF;
 
-a.taxonomies-categories .taxonomies-categories {
+.taxonomies-categories {
 	line-height: 100%;
 	margin: 3px 0 0;
 	color: $categoriesc;
