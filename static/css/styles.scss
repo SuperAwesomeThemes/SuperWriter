@@ -361,7 +361,8 @@ table {
 .post-tags {
     float: left;
     margin: 3px 0 0;
-    a:hover { color: $secondary; }
+	
+    // a:hover { color: $secondary; }
 }
 
 .share {
@@ -427,7 +428,7 @@ $tagshc: #FF4040;
 	cursor: pointer;
 }
 
-a.taxonomies-tags:hover .taxonomies-tags:hover {
+.taxonomies-tags:hover {
 	color: $tagshc; 
 	border: 1px solid $tagsc;
 }
@@ -451,7 +452,7 @@ $serieshc: #40FF40;
 	cursor: pointer;
 }
 
-a.taxonomies-series:hover .taxonomies-series:hover {
+.taxonomies-series:hover {
 	color: $serieshc;
 	border: 1px solid $seriesc;
 }
@@ -475,7 +476,7 @@ $categorieshc: #4040FF;
 	cursor: pointer;
 }
 
-a.taxonomies-categories:hover .taxonomies-categories:hover {
+.taxonomies-categories:hover {
 	color: $categorieshc;
 	border: 1px solid $categoriesc;
 }
