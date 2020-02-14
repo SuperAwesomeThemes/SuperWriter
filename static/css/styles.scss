@@ -361,36 +361,7 @@ table {
 .post-tags {
     float: left;
     margin: 3px 0 0;
-	
-	a {
-		line-height: 100%;
-		margin: 3px 0 0;
-		color: $primary;
-		background-color: #FCF5F5; // #F5FCF5 #F5F5FC
-		display: inline-block;
-		padding: 3px;
-		border-radius: 4px;
-		border: 1px solid $primary;
-		text-align: center;
-		text-decoration: none;
-		transition-duration: 0.4s;
-		cursor: pointer;
-	}
-	
-    a:hover {
-		line-height: 100%;
-		margin: 3px 0 0;
-		color: $secondary;
-		background-color: #FCF5F5;
-		display: inline-block;
-		padding: 3px;
-		border-radius: 4px;
-		border: 1px solid $secondary;
-		text-align: center;
-		text-decoration: none;
-		transition-duration: 0.4s;
-		cursor: pointer;
-	}
+    a:hover { color: $secondary; }
 }
 
 .share {
@@ -432,6 +403,79 @@ table {
 }
 
 .page-number { display: none; }
+
+/* ============================================================ */
+/* Taxonomies */
+/* ============================================================ */
+
+$tagsc: #F03838;
+$tagsbc: #FCF5F5;
+$tagshc: #FF4040;
+
+.taxonomies-tags {
+	line-height: 100%;
+	margin: 3px 0 0;
+	color: $tagsc;
+	background-color: $tagsbc;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid $tagsc;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.taxonomies-tags:hover {
+	color: $tagshc;
+}
+
+$seriesc: #38F038;
+$seriesbc: #F5FCF5;
+$serieshc: #40FF40;
+
+.taxonomies-series {
+	line-height: 100%;
+	margin: 3px 0 0;
+	color: $seriesc;
+	background-color: $seriesbc;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid $seriesc;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.taxonomies-series:hover {
+	color: $serieshc;
+}
+
+$categoriesc: #3838F0;
+$categoriesbc: #F5F5FC;
+$categorieshc: #4040FF;
+
+.taxonomies-categories {
+	line-height: 100%;
+	margin: 3px 0 0;
+	color: $categoriesc;
+	background-color: $categoriesbc;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid $categoriesc;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.taxonomies-categories:hover {
+	color: $categorieshc;
+}
 
 /* ============================================================ */
 /* Post Index */
