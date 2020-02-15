@@ -1,52 +1,40 @@
-					<div class="site-title-wrapper">
-						{{ if .Site.Params.logo }}
-							<a class="site-logo" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">
-								<img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" />
-							</a>
-						{{ else }}
-							<h1 class="site-title">
-								<a title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-							</h1>
-						{{ end }}
-                        <a class="button-square" href="{{ .Site.BaseURL }}index.xml"><i class="fas fa-rss"></i></a>
-                        {{ with .Site.Params.twitter }}
-                            <a class="button-square" title="Twitter" href="{{ . }}">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.facebook }}
-                            <a class="button-square" title="Facebook" href="{{ . }}">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.linkedin }}
-                            <a class="button-square" title="LinkedIn" href="{{ . }}">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.github }}
-                            <a class="button-square" title="Github" href="{{ . }}">
-                                <i class="fab fa-github-alt"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.gitlab }}
-                            <a class="button-square" title="Gitlab" href="{{ . }}">
-                                <i class="fab fa-gitlab"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.stackoverflow }}
-                            <a class="button-square" title="Stack Overflow" href="{{ . }}">
-                                <i class="fab fa-stack-overflow"></i>
-                            </a>
-                        {{ end }}
-						{{ with .Site.Params.quora }}
-                            <a class="button-square" title="Quora" href="{{ . }}">
-                                <i class="fab fa-quora"></i>
-                            </a>
-                        {{ end }}
-                        {{ with .Site.Params.email }}
-                            <a class="button-square" title="Email" href="mailto:{{ . }}">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        {{ end }}
-                    </div>
+{{ with .Site.Params.twitter }}
+	<a class="button-square" title="Twitter" href="{{ . }}">
+		<i class="fab fa-twitter"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.facebook }}
+	<a class="button-square" title="Facebook" href="{{ . }}">
+		<i class="fab fa-facebook"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.linkedin }}
+	<a class="button-square" title="LinkedIn" href="{{ . }}">
+		<i class="fab fa-linkedin"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.github }}
+	<a class="button-square" title="Github" href="{{ . }}">
+		<i class="fab fa-github-alt"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.gitlab }}
+	<a class="button-square" title="Gitlab" href="{{ . }}">
+		<i class="fab fa-gitlab"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.stackoverflow }}
+	<a class="button-square" title="Stack Overflow" href="{{ . }}">
+		<i class="fab fa-stack-overflow"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.quora }}
+	<a class="button-square" title="Quora" href="{{ . }}">
+		<i class="fab fa-quora"></i>
+	</a>
+{{ end }}
+{{ with .Site.Params.email }}
+	<a class="button-square" title="Email" href="mailto:{{ . }}">
+		<i class="fas fa-envelope"></i>
+	</a>
+{{ end }}

@@ -228,25 +228,24 @@ table {
 .site-header {
     padding: 40px 0 0;
     overflow: auto;
-    text-align: center;
+	text-align: center;
     text-transform: uppercase;
 }
 
 .site-title-wrapper {
     display: table;
     margin: 0 auto;
-	white-space: nowrap;
 }
 
 .site-title {
-    float: left;
+	float: left;
     font-size: 14px;
     font-weight: 600;
     margin: 0;
     text-transform: uppercase;
 
     a {
-        float: left;
+		float: left;
         background: $primary;
         color: #FEFEFE;
         padding: 5px 10px 6px;
@@ -256,14 +255,10 @@ table {
 }
 
 .site-logo {
-	float: left;
     display: block;
 
     img {
-		float: left;
 		margin: 0;
-		width: 100px;
-		vertical-align: middle;
 		border-radius: 10%;
 	}
 }
@@ -272,6 +267,7 @@ table {
     list-style: none;
     margin: 28px 0 10px;
     padding: 0;
+	text-align:center;
 }
 
 .site-nav-item {
@@ -297,7 +293,6 @@ table {
     padding: 0 0 20px;
     text-align: center;
     text-transform: uppercase;
-	font-variant: small-caps;
 }
 
 .post-title,
@@ -307,7 +302,6 @@ table {
     margin: 15px 0;
     text-align: center;
     text-transform: uppercase;
-	font-variant: small-caps;
 }
 
 .page-title { margin: 15px 40px; }
