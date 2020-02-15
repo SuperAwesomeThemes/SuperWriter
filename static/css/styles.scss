@@ -421,13 +421,13 @@ $tags2: #FCF5F5;
 	color: $tags1;
 	border: 1px solid $tags1;
 	background-color: $tags2;
-	display: inline-block;
-	padding: 3px;
-	border-radius: 4px;
-	text-align: center;
-	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
+    font-size: 10px;
+    margin: 7px 0 0;
+    padding: 0 5px;
+	border-radius: 3px;
+	text-transform: uppercase;
 	
 	&:hover {
 		color: $tags2;
@@ -447,17 +447,16 @@ $series2: #F5FCF5;
 
 .taxonomies-series {
 	line-height: 100%;
-	margin: 3px 0 0;
 	color: $series1;
 	border: 1px solid $series1;
 	background-color: $series2;
-	display: inline-block;
-	padding: 3px;
-	border-radius: 4px;
-	text-align: center;
-	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
+    font-size: 10px;
+    margin: 7px 0 0;
+    padding: 0 5px;
+	border-radius: 3px;
+	text-transform: uppercase;
 	
 	&:hover {
 		color: $series2;
@@ -477,17 +476,16 @@ $categories2: #F5F5FC;
 
 .taxonomies-categories {
 	line-height: 100%;
-	margin: 3px 0 0;
 	color: $categories1;
 	border: 1px solid $categories1;
 	background-color: $categories2;
-	display: inline-block;
-	padding: 3px;
-	border-radius: 4px;
-	text-align: center;
-	text-decoration: none;
 	transition-duration: 0.4s;
 	cursor: pointer;
+    font-size: 10px;
+    margin: 7px 0 0;
+    padding: 0 5px;
+	border-radius: 3px;
+	text-transform: uppercase;
 	
 	&:hover {
 		color: $categories2;
@@ -501,6 +499,7 @@ a.taxonomies-categories:hover {
 	border: 1px solid $secondary;
 	background-color: $categories1;
 }
+
 
 /* ============================================================ */
 /* Post Index */
@@ -540,7 +539,6 @@ a.taxonomies-categories:hover {
     background: $secondary;
     border-radius: 3px;
     color: #FFF;
-    float: right;
     font-size: 10px;
     margin: 7px 0 0;
     padding: 0 5px;

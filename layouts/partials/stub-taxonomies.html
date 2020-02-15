@@ -1,25 +1,20 @@
-	<p class="post-tags">
-	    {{ if .Params.categories }}
-			{{ $len := len .Params.categories }}
-			{{ range $index, $categories := .Params.categories }}
-				<a class="taxonomies-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-				{{- if lt $index (sub $len 1) -}}, {{ else }} | {{ end }}
-			{{ end }}
-		{{ end}}
-		
-	    {{ if .Params.series }}
-			{{ $len := len .Params.series }}
-			{{ range $index, $series := .Params.series }}
-				<a class="taxonomies-series" href="{{ "/series/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-				{{- if lt $index (sub $len 1) -}}, {{ else }} | {{ end }}
-			{{ end }}
-		{{ end}}
-		
-	    {{ if .Params.tags }}
-			{{ $len := len .Params.tags }}
-			{{ range $index, $tag := .Params.tags }}
-				<a class="taxonomies-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-				{{- if lt $index (sub $len 1) -}}, {{ end }}
-			{{ end }}
-		{{ end}}
-	</p>
+{{ if .Params.categories }}
+	{{ $len := len .Params.categories }}
+	{{ range $index, $categories := .Params.categories }}
+		<a class="taxonomies-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+	{{ end }}
+{{ end}}
+
+{{ if .Params.series }}
+	{{ $len := len .Params.series }}
+	{{ range $index, $series := .Params.series }}
+		<a class="taxonomies-series" href="{{ "/series/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+	{{ end }}
+{{ end}}
+
+{{ if .Params.tags }}
+	{{ $len := len .Params.tags }}
+	{{ range $index, $tag := .Params.tags }}
+		<a class="taxonomies-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+	{{ end }}
+{{ end}}

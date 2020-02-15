@@ -7,8 +7,11 @@
 		{{ if .Date }}
 			<time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">Published {{ dateFormat (default "Mon, 2 Jan 2006" .Site.Params.dateFormat) .Date }}</time>
 		{{ end }}
-        {{ with .Params.featured }}
-            <span class="post-stub-tag">Featured</span>
-        {{ end }}
     </a>
+	
+	{{ with .Params.featured }}
+		<span class="post-stub-tag">Featured</span>
+	{{ end }}
+	
+	{{ partial "stub-taxonomies.html" . }}
 </li>
