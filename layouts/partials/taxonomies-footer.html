@@ -1,0 +1,24 @@
+{{ if .Params.featured }}
+	<a class="post-taxonomy-featured" href="/" title="Featured">Featured</a>
+{{ end }}
+
+{{ if .Params.categories }}
+	<span>Categories</span>
+	{{ range $index, $categories := .Params.categories }}
+		<a class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Catergory: {{ . }}">{{ . }}</a>
+	{{ end }}
+{{ end }}
+
+{{ if .Params.series }}
+	<span>Series</span>
+	{{ range $index, $series := .Params.series }}
+		<a class="post-taxonomy-series" href="{{ "/series/" | relLangURL }}{{ . | urlize }}/" title="Series: {{ . }}">{{ . }}</a>
+	{{ end }}
+{{ end }}
+
+{{ if .Params.tags }}
+	<span>Tags</span>
+	{{ range $index, $tag := .Params.tags }}
+		<a class="post-taxonomy-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" title="Tag: {{ . }}">{{ . }}</a>
+	{{ end }}
+{{ end }}

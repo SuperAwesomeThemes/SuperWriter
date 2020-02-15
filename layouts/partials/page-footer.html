@@ -1,4 +1,11 @@
 <footer class="post-footer clearfix">
-	{{ partial "footer-taxonomies.html" . }}
-	{{ partial "share.html" . }}
+	<div class="post-footer-warper">
+		<div class="post-tags">
+			{{ partial "taxonomies-footer.html" . }}
+		</div>
+		
+		<div class="share">
+			{{ partial "share.html" . }}
+		</div>
+	</div>
 </footer>
