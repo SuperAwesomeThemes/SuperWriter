@@ -235,6 +235,7 @@ table {
 .site-title-wrapper {
     display: table;
     margin: 0 auto;
+	white-space: nowrap;
 }
 
 .site-title {
@@ -253,10 +254,18 @@ table {
         &:hover { background: $secondary; }
     }
 }
+
 .site-logo {
+	float: left;
     display: block;
 
-    img { margin: 0; }
+    img {
+		float: left;
+		margin: 0;
+		width: 100px;
+		vertical-align: middle;
+		border-radius: 10%;
+	}
 }
 
 .site-nav {
@@ -288,6 +297,7 @@ table {
     padding: 0 0 20px;
     text-align: center;
     text-transform: uppercase;
+	font-variant: small-caps;
 }
 
 .post-title,
@@ -297,6 +307,7 @@ table {
     margin: 15px 0;
     text-align: center;
     text-transform: uppercase;
+	font-variant: small-caps;
 }
 
 .page-title { margin: 15px 40px; }
@@ -426,14 +437,14 @@ $tags2: #FCF5F5;
 	
 	&:hover {
 		color: $tags2;
-		border: 1px solid $tags2;
+		border: 1px solid $secondary;
 		background-color: $tags1;
 	}
 }
 
 a.taxonomies-tags:hover {
 	color: $tags2;
-	border: 1px solid $tags2;
+	border: 1px solid $secondary;
 	background-color: $tags1;
 }
 
@@ -456,14 +467,14 @@ $series2: #F5FCF5;
 	
 	&:hover {
 		color: $series2;
-		border: 1px solid $series2;
+		border: 1px solid $secondary;
 		background-color: $series1;
 	}
 }
 
 a.taxonomies-series:hover {
 	color: $series2;
-	border: 1px solid $series2;
+	border: 1px solid $secondary;
 	background-color: $series1;
 }
 
@@ -486,14 +497,14 @@ $categories2: #F5F5FC;
 	
 	&:hover {
 		color: $categories2;
-		border: 1px solid $categories2;
+		border: 1px solid $secondary;
 		background-color: $categories1;
 	}
 }
 
 a.taxonomies-categories:hover {
 	color: $categories2;
-	border: 1px solid $categories2;
+	border: 1px solid $secondary;
 	background-color: $categories1;
 }
 
