@@ -4,7 +4,6 @@
 
 {{ if .Params.categories }}
 	<a href="{{ "/categories/" | relLangURL }}" title="Catergory">Category</a>
-	<span>Categories</span>
 	{{ range $index, $categories := .Params.categories }}
 		<a class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Category: {{ . }}">{{ . }}</a>
 	{{ end }}
