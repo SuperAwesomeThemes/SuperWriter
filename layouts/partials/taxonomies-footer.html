@@ -1,23 +1,24 @@
 {{ if .Params.featured }}
-	<a class="post-taxonomy-featured" href="/" title="Featured">Featured</a>
+	<span class="post-taxonomy-featured" href="/" title="Featured">Featured</span>
 {{ end }}
 
 {{ if .Params.categories }}
+	<a href="{{ "/categories/" | relLangURL }}" title="Catergory">Category</a>
 	<span>Categories</span>
 	{{ range $index, $categories := .Params.categories }}
-		<a class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Catergory: {{ . }}">{{ . }}</a>
+		<a class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Category: {{ . }}">{{ . }}</a>
 	{{ end }}
 {{ end }}
 
 {{ if .Params.series }}
-	<span>Series</span>
+	<a href="{{ "/series/" | relLangURL }}" title="Series">Series</a>
 	{{ range $index, $series := .Params.series }}
 		<a class="post-taxonomy-series" href="{{ "/series/" | relLangURL }}{{ . | urlize }}/" title="Series: {{ . }}">{{ . }}</a>
 	{{ end }}
 {{ end }}
 
 {{ if .Params.tags }}
-	<span>Tags</span>
+	<a href="{{ "/tags/" | relLangURL }}" title="Tags">Tags</a>
 	{{ range $index, $tag := .Params.tags }}
 		<a class="post-taxonomy-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" title="Tag: {{ . }}">{{ . }}</a>
 	{{ end }}

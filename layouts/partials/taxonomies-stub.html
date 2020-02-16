@@ -2,15 +2,14 @@
 	<span class="post-taxonomy-featured" href="/" title="Featured">Featured</span>
 {{ end }}
 
-{{ range $index, $tag := .Params.tags }}
-	<span class="post-taxonomy-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" title="Tag: {{ . }}">{{ . }}</span>
+{{ range $index, $categories := .Params.categories }}
+	<span class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Catergory: {{ . }}">{{ . }}</span>
 {{ end }}
 
 {{ range $index, $series := .Params.series }}
 	<span class="post-taxonomy-series" href="{{ "/series/" | relLangURL }}{{ . | urlize }}/" title="Series: {{ . }}">{{ . }}</span>
 {{ end }}
 
-{{ range $index, $categories := .Params.categories }}
-	<span class="post-taxonomy-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" title="Catergory: {{ . }}">{{ . }}</span>
+{{ range $index, $tag := .Params.tags }}
+	<span class="post-taxonomy-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" title="Tag: {{ . }}">{{ . }}</span>
 {{ end }}
-
