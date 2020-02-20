@@ -239,6 +239,7 @@ table {
 }
 
 .site-title {
+	word-wrap: break-word;
     font-size: 14px;
     font-weight: 600;
     margin: 0;
@@ -687,7 +688,10 @@ $categories2: #F5F5FC;
     margin-top: 95px;
     overflow: auto;
 
-    .site-title-wrapper { margin: 80px auto 35px; }
+    .site-title-wrapper { 
+		word-wrap: break-word;
+		margin: 80px auto 35px; 
+	}
 
     .site-title a:hover,
     .button-square:hover {
@@ -715,9 +719,6 @@ $categories2: #F5F5FC;
 /* ============================================================ */
 
 @media only screen and (max-width: 800px) {
-    .post-tags { 
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -751,20 +752,8 @@ $categories2: #F5F5FC;
             margin-left: 0;
         }
     }
-
-	.site-title-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		flex-flow: wrap row;
-	}
 	
     .site-nav-item {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		flex-flow: wrap row;
-		
         margin: 15px 0;
     }
 
@@ -803,11 +792,11 @@ $categories2: #F5F5FC;
         }
     }
 
-    .post-stub-title { display: block; }
+    .post-stub-title { display: inline-block; }
 
     .post-stub-date:before {
         content: "";
-        display: block;
+        display: inline-block;
     }
 
     .post-list {
@@ -830,7 +819,6 @@ $categories2: #F5F5FC;
     }
 
     .share {
-		flex-wrap: wrap;
         float: left;
         margin-top: 20px;
 
